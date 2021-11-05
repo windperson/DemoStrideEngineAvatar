@@ -6,7 +6,7 @@
     <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
     <OutputType>WinExe</OutputType>
     <RootNamespace>DemoStrideEngineAvatar</RootNamespace>
-    <StrideGraphicsApi>Direct3D12</StrideGraphicsApi>
+    <StrideGraphicsApi>Direct3D11</StrideGraphicsApi>
 
     <OutputPath>..\Bin\Windows\$(Configuration)\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
