@@ -19,6 +19,8 @@ namespace DemoStrideEngineAvatar
         {
             base.Start();
 
+            //TODO: Current Android exporting is broken if below animations are using, maybe relate to this issue: https://github.com/stride3d/stride/issues/1136
+
             // Bind the buttons
             var page = Entity.Get<UIComponent>().Page;
 

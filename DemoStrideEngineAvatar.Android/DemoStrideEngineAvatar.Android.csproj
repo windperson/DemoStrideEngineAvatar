@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -38,6 +38,10 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Android' ">
     <DebugType>pdbonly</DebugType>
@@ -91,16 +95,16 @@
     <Compile Include="Resources\Resource.Designer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidNativeLibrary Include="native_lib\freetype\x86\libfreetype.so.6" >
+    <AndroidNativeLibrary Include="native_lib\freetype\x86\libfreetype.so.6">
       <abi>x86</abi>
     </AndroidNativeLibrary>
-    <AndroidNativeLibrary Include="native_lib\freetype\x86_64\libfreetype.so.6" >
+    <AndroidNativeLibrary Include="native_lib\freetype\x86_64\libfreetype.so.6">
       <abi>x86_64</abi>
     </AndroidNativeLibrary>
-    <AndroidNativeLibrary Include="native_lib\freetype\armeabi-v7a\libfreetype.so.6" >
+    <AndroidNativeLibrary Include="native_lib\freetype\armeabi-v7a\libfreetype.so.6">
       <abi>armeabi-v7a</abi>
     </AndroidNativeLibrary>
-    <AndroidNativeLibrary Include="native_lib\freetype\arm64-v8a\libfreetype.so.6" >
+    <AndroidNativeLibrary Include="native_lib\freetype\arm64-v8a\libfreetype.so.6">
       <abi>arm64-v8a</abi>
     </AndroidNativeLibrary>
   </ItemGroup>
