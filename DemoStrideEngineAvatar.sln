@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrideEngineAvatar.Windows", "DemoStrideEngineAvatar.Windows\DemoStrideEngineAvatar.Windows.csproj", "{672D723D-AC0E-408E-8D25-4882BCE22B09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrideEngineAvatar.Game", "DemoStrideEngineAvatar.Game\DemoStrideEngineAvatar.Game.csproj", "{C4C6AA9C-95F5-447B-9B9B-95644EECFDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrideEngineAvatar.Linux", "DemoStrideEngineAvatar.Linux\DemoStrideEngineAvatar.Linux.csproj", "{947ADCE8-1CD9-4DD6-8802-E9EE853BFFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrideEngineAvatar.Android", "DemoStrideEngineAvatar.Android\DemoStrideEngineAvatar.Android.csproj", "{AC224C46-EC37-4CAF-B973-7ABE4D1363F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoStrideEngineAvatar.iOS", "DemoStrideEngineAvatar.iOS\DemoStrideEngineAvatar.iOS.csproj", "{F3A498E0-11B1-4450-AC2C-8E8B145AD18C}"
+EndProject
+Global
+EndGlobal
