@@ -90,6 +90,20 @@
     <AndroidResource Include="Resources\Drawable\Icon.png" />
     <Compile Include="Resources\Resource.Designer.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidNativeLibrary Include="native_lib\freetype\x86\libfreetype.so.6" >
+      <abi>x86</abi>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="native_lib\freetype\x86_64\libfreetype.so.6" >
+      <abi>x86_64</abi>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="native_lib\freetype\armeabi-v7a\libfreetype.so.6" >
+      <abi>armeabi-v7a</abi>
+    </AndroidNativeLibrary>
+    <AndroidNativeLibrary Include="native_lib\freetype\arm64-v8a\libfreetype.so.6" >
+      <abi>arm64-v8a</abi>
+    </AndroidNativeLibrary>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
     Other similar extension points exist, see Microsoft.Common.targets.
